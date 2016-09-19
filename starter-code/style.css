@@ -33,7 +33,7 @@ p {
 }
 
 nav {
-	background-color: #808080;
+	/*background-color: #808080;*/
 }
 
 a {
@@ -42,7 +42,9 @@ a {
 	text-decoration: none;
 	display: block;
 	float: left;
-	padding: 35px;
+	margin: 2.5px;
+	padding: 28px;
+	border-radius: 8%;
 }
 
 a:hover {
@@ -61,4 +63,9 @@ a:hover {
 footer {
 	background-color: #808080;
 	text-align: center;
+}
+
+img {
+	height: 200px;
+	width: 150px;
 }
