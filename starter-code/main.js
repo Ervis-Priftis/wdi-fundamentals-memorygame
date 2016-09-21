@@ -37,9 +37,9 @@ function isTwoCards() {
 
 	console.log(this.getAttribute('data-card'));
 	if (this.getAttribute('data-card') === 'king') {
-		this.innerHTML = "<img src='https://pixabay.com/get/e13db50e21f01c22d2524518a33219c8b66ae3d11eb5134592f4c570/clubs-884194_1280.png'>"; //King
+		this.innerHTML = "<img src='https://pixabay.com/get/e13db50e21f01c22d2524518a33219c8b66ae3d11eb5154893f4c679/clubs-884194_1280.png'>"; //King
 	} else {
-		this.innerHTML = "<img src='https://pixabay.com/get/e13db50e21fc1c22d2524518a33219c8b66ae3d11eb5134592f3c87d/clubs-884198_1280.png'>"; //Queen
+		this.innerHTML = "<img src='https://pixabay.com/get/e13db50e21fc1c22d2524518a33219c8b66ae3d11eb5154893f5c370/clubs-884198_1280.png'>"; //Queen
 	}
 
   if (cardsInPlay.length === 2) {
