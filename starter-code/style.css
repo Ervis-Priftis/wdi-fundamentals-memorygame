@@ -51,6 +51,15 @@ a:hover {
 	background-color: #ee5f3c;
 }
 
+footer {
+    background-color: #808080;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 30px;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -60,10 +69,6 @@ a:hover {
 	font-size: 0;
 }
 
-footer {
-	background-color: #808080;
-	text-align: center;
-}
 
 img {
 	height: 200px;
